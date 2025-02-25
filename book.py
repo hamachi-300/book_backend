@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 
 # MongoDB connection
-client = MongoClient('mongodb+srv://tuwaris:<password>@tuwaris.5ynbx.mongodb.net/?retryWrites=true&w=majority&appName=Tuwaris')
+client = MongoClient('mongodb+srv://tuwaris:aUh1fCNMrFIMPfmd@tuwaris.5ynbx.mongodb.net/?retryWrites=true&w=majority&appName=Tuwaris')
 db = client['books']
 book_collection = db['book_infos']
 
